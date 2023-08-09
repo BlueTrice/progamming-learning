@@ -1,4 +1,4 @@
-//Memasukan hari bulan dan tahun dengan angka
+//Membuat variable hari, bulan, dan tahun
 //Mengubah bulan(angka) menjadi nama bulan dengan conditional switch case
 
 let hari = '1';

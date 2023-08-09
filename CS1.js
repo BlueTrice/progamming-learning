@@ -1,8 +1,5 @@
-// Game fantasy Proxytia
-// Masukan nama anda
-// Tentukan karakter anda
-// Akan ada peringatan apabila nama atau role kosong
-// Ketauhi apa yang karakter anda bisa lakukan
+// membuat variable name dan role
+// membuat statement name dan role
 
 let name = `Blue`;
 let role = `knight`;
