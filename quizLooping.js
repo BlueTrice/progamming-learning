@@ -65,8 +65,13 @@ for (i = 1; i <= 100; i += 9) {
 
 //Quiz 5
 
-let stars = ["*", "**", "***", "****", "*****"];
+let result = ' ';
+let n = 5;
 
-for (i = 0; i <= 4; i++) {
-    console.log(stars[i]);
+for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+        result += "*";
+    }
+    result += "\n";
 }
+console.log(result);
