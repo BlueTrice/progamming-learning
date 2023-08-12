@@ -65,7 +65,7 @@ for (i = 1; i <= 100; i += 9) {
 
 //Quiz 5
 
-let result = ' ';
+let result = '';
 let n = 5;
 
 for (let i = 1; i <= n; i++) {
