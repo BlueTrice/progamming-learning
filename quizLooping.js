@@ -65,8 +65,8 @@ for (i = 1; i <= 100; i += 9) {
 
 //Quiz 5
 
-let result = '';
 let n = 5;
+let result = '';
 
 for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
@@ -75,3 +75,14 @@ for (let i = 1; i <= n; i++) {
     result += "\n";
 }
 console.log(result);
+
+let nest = 10;
+let result2 = '';
+
+for (let i = 1; i <= nest; i++) {
+    for (let j = 1; j <= i; j++) {
+        result2 += '%';
+    }
+    result2 += '\n';
+}
+console.log(result2);
