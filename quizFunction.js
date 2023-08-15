@@ -1,8 +1,7 @@
 // soal 1
 
 function shoutOut() {
-    console.log('Halo Function!');
-    return;
+    return 'Halo Function!';
 }
 
 console.log(shoutOut());
@@ -25,8 +24,8 @@ let addres = "Jln. Malioboro, Yogyakarta";
 let hobby = "gaming";
 
 let fullSentence = function processSentence(name,age,addres,hobby) {
-    console.log(`Nama saya ${name}, umur saya ${age} tahun, alamat saya di ${addres}, saya punya hobby yaitu ${hobby} `);
-    return;
+    return `Nama saya ${name}, umur saya ${age} tahun, alamat saya di ${addres}, saya punya hobby yaitu ${hobby} `;
+    
 }
 
 console.log(fullSentence(name,age,addres,hobby));
